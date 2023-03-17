@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.main-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 720px;
+    background-color: brown;
+    margin-left:calc(50% - 640px);
+}
+.column{
+    color: blue;
+    width: 263px;
+    height: 582px;
+    background-color: #51C3CD;
+}
+.image-continer{
+    position: relative;
+}
+.number{
+    margin: 0;
+    width: 65px;
+    height: 65px;
+    background-color: white;
+    border-radius: 50%;
+    border: solid 5px #51C3CD;
+    position: absolute;
+    top: 0;
+    left: 1px;
+
+}
+.icon{
+    width: 230px;
+    height: 230px;
+    margin-top: 32px;
+    margin-left: 33px;
+}
