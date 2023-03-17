@@ -42,20 +42,24 @@ body{
 .one{
     color: #51C3CD;
     border-color: #51C3CD;
+    font-weight: bold;
 }
 
 .two{
     color: #3A6EC1;
     border-color: #3A6EC1;
+    font-weight: bold;
 }
 
 .three{
     color: #F34D33;
     border-color: #F34D33;
+    font-weight: bold;
 }
 .four{
     color: #919191;
     border-color: #919191;
+    font-weight: bold;
 }
 
 .discover-home{
