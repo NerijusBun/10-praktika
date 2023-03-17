@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+
 .main-content{
     display: flex;
     gap: 30px;
@@ -8,18 +9,18 @@ body{
     align-items: center;
     width: 1280px;
     height: 720px;
-    background-color: brown;
     margin-left:calc(50% - 640px);
 }
+
 .column{
-    color: blue;
     width: 263px;
     height: 582px;
-    background-color: #51C3CD;
 }
-.image-continer{
+
+.image-container{
     position: relative;
 }
+
 .number{
     margin: 0;
     width: 65px;
@@ -28,13 +29,75 @@ body{
     border-radius: 50%;
     border: solid 5px #51C3CD;
     position: absolute;
-    top: 0;
+    top: -32px;
     left: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 
 }
+
+.one{
+    color: #51C3CD;
+    border-color: #51C3CD;
+}
+
+.two{
+    color: #3A6EC1;
+    border-color: #3A6EC1;
+}
+
+.three{
+    color: #F34D33;
+    border-color: #F34D33;
+}
+.four{
+    color: #919191;
+    border-color: #919191;
+}
+
+.discover-home{
+    background-color: #51C3CD;
+}
+
+.mind-home{
+    background-color: #3A6EC1;
+}
+
+.user-home{
+    background-color: #F34D33;
+}
+
+.deploy-home{
+    background-color: #919191;
+}
+
 .icon{
     width: 230px;
     height: 230px;
     margin-top: 32px;
     margin-left: 33px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: #f34d33;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 33px;
+    margin-top: 30px;
+}
+
+p{
+    margin: 0;
+    color: #202020;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 50px;
 }
